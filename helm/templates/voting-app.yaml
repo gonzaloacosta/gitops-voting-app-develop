@@ -16,11 +16,13 @@ spec:
         result:
           image:
             tag: develop
-          ingressHost: result.develop.192.168.64.6.nip.io
+          ingress:
+            host: result.develop.192.168.64.6.nip.io
         vote:
           image:
             tag: develop
-          ingressHost: vote.develop.192.168.64.6.nip.io
+          ingress:
+            host: vote.develop.192.168.64.6.nip.io
         worker:
           image:
             tag: develop
